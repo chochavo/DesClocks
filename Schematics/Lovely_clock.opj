@@ -1,0 +1,177 @@
+(ExpressProject "Lovely_clock"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\clock_components.olb"
+        (Type "Schematic Library"))
+      (File "c:\users\mx\desktop\bob dishes\schematics\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\lovely_clock.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\MX\Google Drive\Home Projects\Homey Clock\Lovely_Clock\lovely_clock.dsn")
+      (Path "Design Resources"
+         "C:\Users\MX\Google Drive\Home Projects\Homey Clock\Lovely_Clock\lovely_clock.dsn"
+         "Clock_Board")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "C:\Users\MX\Google Drive\Home Projects\Homey Clock\Lovely_Clock\lovely_clock.dsn"
+         "Clock_Board" "Main"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -27 0 200 0 441"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 381 2013 110 565")
+        (Scroll "-307 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MX\GOOGLE DRIVE\HOME PROJECTS\HOMEY CLOCK\LOVELY_CLOCK\LOVELY_CLOCK.DSN")
+      (Schematic "Clock_Board")
+      (Page "FRONT_PANEL"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 165 1797 101 556")
+        (Scroll "-307 336")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MX\GOOGLE DRIVE\HOME PROJECTS\HOMEY CLOCK\LOVELY_CLOCK\LOVELY_CLOCK.DSN")
+      (Schematic "Clock_Board")
+      (Page "Main")))
+  (PartMRUSelector
+    ("CONN TRBLK 4"
+      (FullPartName "CONN TRBLK 4.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES (X86)\CADENCE\SPB\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName
+         "D:\PROGRAM FILES (X86)\CADENCE\SPB\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SPEAKER
+      (FullPartName "SPEAKER.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES (X86)\CADENCE\SPB\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (2N2222
+      (FullPartName "2N2222.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES (X86)\CADENCE\SPB\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 7"
+      (FullPartName "CONN SOCKET 7.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES (X86)\CADENCE\SPB\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 6"
+      (FullPartName "CONN SOCKET 6.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES (X86)\CADENCE\SPB\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN SOCKET 4x3"
+      (FullPartName "CONN SOCKET 4x3.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES (X86)\CADENCE\SPB\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (LN03202
+      (FullPartName "LN03202.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES (X86)\CADENCE\SPB\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DS1302
+      (FullPartName "DS1302.Normal")
+      (LibraryName
+         "D:\ELECTRONICS\HOME EE\HOMEY CLOCK\LOVELY_CLOCK\CLOCK_COMPONENTS.OLB")
+      (DeviceIndex "0"))
+    (DS1620
+      (FullPartName "DS1620.Normal")
+      (LibraryName
+         "D:\ELECTRONICS\HOME EE\HOMEY CLOCK\LOVELY_CLOCK\CLOCK_COMPONENTS.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CRYSTAL
+      (FullPartName "CRYSTAL.Normal")
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LM7805C
+      (FullPartName "LM7805C.Normal")
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
+      (DeviceIndex "0"))
+    ("CONN PWR 3-P"
+      (FullPartName "CONN PWR 3-P.Normal")
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("SW KEY-SPST"
+      (FullPartName "SW KEY-SPST.Normal")
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("SW KEY-SPDT"
+      (FullPartName "SW KEY-SPDT.Normal")
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (DS1305_RTC
+      (FullPartName "DS1305_RTC.Normal")
+      (LibraryName
+         "C:\USERS\MX\DESKTOP\LC TESTER\LOVELY_CLOCK\CLOCK_COMPONENTS.OLB")
+      (DeviceIndex "0"))
+    (CT_M4T28_3V_BAT
+      (FullPartName "CT_M4T28_3V_BAT.Normal")
+      (LibraryName
+         "C:\USERS\MX\DESKTOP\LC TESTER\LOVELY_CLOCK\CLOCK_COMPONENTS.OLB")
+      (DeviceIndex "0"))
+    (AVG_DISP_4CHAR
+      (FullPartName "AVG_DISP_4CHAR.Normal")
+      (LibraryName
+         "C:\USERS\MX\DESKTOP\LC TESTER\LOVELY_CLOCK\CLOCK_COMPONENTS.OLB")
+      (DeviceIndex "0"))
+    (2X10_HEADER
+      (FullPartName "2X10_HEADER.Normal")
+      (LibraryName "C:\USERS\MX\DESKTOP\BOB DISHES\SCHEMATICS\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "F:\CADENCE\SPB_16.5\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (ATMEGA328P_28
+      (FullPartName "ATMEGA328P_28.Normal")
+      (LibraryName "C:\USERS\MX\DESKTOP\BOB DISHES\SCHEMATICS\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Program Files (x86)\Cadence\SPB\tools\capture\library"))
